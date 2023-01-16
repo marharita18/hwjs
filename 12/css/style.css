@@ -1,16 +1,71 @@
 body{
-    background-color: blue;
+    font-family: sans-serif;
+    margin: 0px;
 }
-
-
-
-
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.header{
+margin: 30px;
 }
 
 a{
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+
+}
+
+span:first-child{
+    color: rgba(255, 0, 0, 0.806);
+}
+
+span:nth-child(2){
+    color: rgba(0, 0, 255, 0.568);
+}
+
+.link{
+    padding: 5px;
+}
+
+.link:first-child{
+    background-color:rgba(255, 0, 0, 0.587);
+}
+
+.link:last-child{
+    background-color: rgba(255, 0, 0, 0.587);
+    border-radius: 5px;
+}
+
+.mainpage{
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.436);
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(245, 222, 179) ;
+}
+
+.title{
+    height: 300px;
+    padding-top: 100px;
+}
+
+#column{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height:50% ; 
+    width: 100%;
+}
+.news{
+    margin: 15px;
+}
+
+#text{
+    color: rgba(0, 0, 0, 0.623);;
 }
