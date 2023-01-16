@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .header{
@@ -9,7 +10,7 @@ body{
 }
 
 .header{
-margin: 30px;
+    margin: 30px;
 }
 
 a{
@@ -51,6 +52,8 @@ span:nth-child(2){
 .title{
     height: 300px;
     padding-top: 100px;
+    display: flex ;
+    justify-content: center;
 }
 
 #column{
@@ -68,4 +71,25 @@ img{
 
 #text{
     color: rgba(0, 0, 0, 0.623);;
+}
+
+@media screen and (max-width: 1279px){
+    .mainpage{
+    background-color: rgba(81, 128, 112, 0.797);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainpage{
+        background-color: rgba(132, 67, 67, 0.653);
+    }
+    .title{
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .mainpage{
+        background-color: rgba(93, 71, 12, 0.699);
+    }
 }
