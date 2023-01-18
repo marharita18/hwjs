@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Calculator;
+    src: url(../fonts/calculator.ttf);
+}
+
+body{
+    background-color: rgb(154, 142, 132);
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    background-color: rgb(59, 47, 47);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen{
+    font-family: Calculator;
+}
+
+table{
+    width: 80%;
+}
+
+td{
+    background-color: rgb(95, 69, 69);
+    
+}
+
+.back:nth-child(1){
+    justify-content: left;
+}
