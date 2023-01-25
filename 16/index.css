@@ -125,3 +125,23 @@ body{
     left: 28px;
     background-color: var(--black-figure-color);
 }
+
+.rook.white{
+    background-color: var(--white-figure-color);
+}
+
+.rook_top1.white{
+    border-color: var(--white-figure-color);
+}
+
+.rook_top2.white{
+    border-color: var(--white-figure-color);
+}
+
+.rook_bottom1.white{
+    background-color: var(--white-figure-color);
+}
+
+.rook_bottom2.white{
+    background-color: var(--white-figure-color);
+}
